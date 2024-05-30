@@ -14,7 +14,7 @@ spring:
           default-label: main
           clone-on-start: true
           username: AlexSanti33
-          password: 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
+          password:  $(GIT_TOKEN)
 
 eureka:
   instance:
